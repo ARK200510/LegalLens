@@ -140,9 +140,7 @@ backend/legal_model/
 
 ---
 
-## 👨‍💻 Developed By
 
-**Aishwarya Kalshetti**
 
 ---
 
