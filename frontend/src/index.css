@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #f2f0eb;
+  color: #1c1c2e;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --bg:          #f2f0eb;
+  --surface:     #ffffff;
+  --sidebar-bg:  #18182e;
+  --accent:      #c9a96e;
+  --accent2:     #7c6a8e;
+  --accent-soft: #fdf3e3;
+  --text:        #1c1c2e;
+  --muted:       #7a7a8e;
+  --border:      #e4e0d8;
+  --success:     #6bab8d;
+  --success-bg:  #eef7f2;
+  --success-bd:  #9bd0b6;
+  --warn:        #c9a96e;
+  --warn-bg:     #fdf3e3;
+  --warn-bd:     #e8c07a;
+  --danger:      #d4756b;
+  --purple:      #7c6a8e;
+  --purple-bg:   #f0ecf6;
+  --purple-bd:   #c5b0e0;
+  --blue:        #5b8ed4;
+  --blue-bg:     #eaf1fb;
+  --shadow:      0 2px 16px rgba(28,28,46,.07);
+  --shadow-lg:   0 8px 40px rgba(28,28,46,.13);
+  --radius:      16px;
+  --radius-sm:   10px;
+  --sidebar-w:   250px;
+  --font-head:   'Fraunces', serif;
+  --font-body:   'DM Sans', sans-serif;
+}
+
+input, button, select, textarea {
+  font-family: var(--font-body);
+}
+
+button { cursor: pointer; }

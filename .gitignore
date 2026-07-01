@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+backend/.env
+
+# Database
+*.db
+
+# Temporary Files
+output.txt
+
+# Node
+node_modules/
+
+# AI Model
+backend/legal_model/model.safetensors
